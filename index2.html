@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Saud Saad Alharbi Transport Company</title>
+    <link rel="stylesheet" href="style-EN.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <div id="preloader" class="preloader">
+  <img src="التحميل.png" alt="شعار الشركة" class="logo-loading" />
+  <p class="loading-text">Loading ...</p>
+</div>
+
+
+<header>
+  <div class="logo-img">
+    <a class="logo" href="#">
+      <img src="الشعار.png" alt="Company Logo">
+      Saud Saad AlHarbi Transportation Co.
+    </a>
+  </div>
+
+
+
+          <!-- زر فتح السايد بار للجوال -->
+      <button id="menu-btn" class="menu-btn" aria-label="فتح القائمة">
+            <i class="fas fa-bars"></i>
+      </button>
+
+
+
+  <div class="nav-list" align="center">
+    <nav>
+      <ul>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Team">Team</a></li>
+        <li><a href="#Clients">Clients</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+    <!-- زر تغيير اللغة -->
+<div class="translate-btn"><a href="index.html"> <button id="lang-toggle">AR</button></a>
+</div> 
+
+
+
+
+<!-- قائمة السايد بار للجوال -->
+<div id="sidebar" class="sidebar">
+  <button id="close-btn" aria-label="إغلاق القائمة" class="close-btn">&times;</button>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <hr>
+      <li><a href="#About">About</a></li>
+      <hr>
+      <li><a href="#Services">Services</a></li>
+      <hr>
+      <li><a href="#Clients">Clients</a></li>
+      <hr>
+      <li><a href="#Team">Team</a></li>
+      <hr>
+      <li><a href="#Contact">Contact</a></li>
+      <hr>
+      <li>
+        <!-- زر الترجمة داخل السايدبار -->
+        <a href="Home.html">
+          <button id="lang-toggle">AR</button>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<!-- تظليل الخلفية -->
+<div id="overlay-hum" class="overlay-hum"></div>
+</header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Saud Saad Alharbi Transportation Co.</h1>
+            <p>We provide transportation services with the highest quality and best prices</p>
+            <a href="#About"><button class="button">Explore</button></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="About">
+        <div class="about-wrapper">
+            <div class="about-text">
+                <h2 class="about-title">About Us</h2>
+                <p class="about-paragraph">
+                    The story began over a decade ago when a group of ambitious entrepreneurs, passionate about providing safe and fast transportation services that meet the local market needs, came together.
+                    The company’s founders committed to the highest safety and quality standards, and sought to apply the latest technologies, turning the idea into the reality known as "Saud Saad Alharbi Transport Company".
+                    Today, we continue to grow confidently and strive to be the first choice in transportation within the Kingdom.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="about-icon.jpg" alt="Truck representing the company" />
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Slider Section -->
+<section class="services-modern" id="Services">
+  <h2 class="section-title">Our Services</h2>
+  <div class="services-grid">
+    <div class="service-card" onclick="openModal(0)">
+      <i class="fas fa-truck-moving"></i>
+      <div class="card-info">
+        <h3>Petroleum Transportation</h3>
+        <p>At Saud Saad Al-Harbi Transportation Company, we offer high-efficiency petroleum transportation services with utmost professionalism. We adhere to the highest safety and quality standards in every journey. Our modern fleet and well-trained team ensure safe and fast deliveries. Our goal is to meet our clients' needs with full confidence and reliability across the Kingdom.</p>
+      </div>
+    </div>
+    <div class="service-card" onclick="openModal(1)">
+      <i class="fas fa-warehouse"></i>
+      <div class="card-info">
+        <h3>Heavy Goods Transport</h3>
+        <p>We possess the expertise and equipment required to transport heavy goods safely and professionally. No matter the load size, we carry out operations with precision. Our trained team can handle the most challenging logistics tasks. We provide reliable heavy transport solutions tailored for large-scale projects with high efficiency.</p>
+      </div>
+    </div>
+    <div class="service-card" onclick="openModal(2)">
+      <i class="fas fa-map-marked-alt"></i>
+      <div class="card-info">
+        <h3>Express Delivery Services</h3>
+        <p>We provide express delivery services to ensure your shipments arrive on time. Our high-performance operations are designed to meet your urgent needs with professionalism. Our team is ready 24/7 to deliver flexible and fast solutions, ensuring quick execution while maintaining the highest standards of safety and quality.</p>
+      </div>
+    </div>
+    <div class="service-card" onclick="openModal(3)">
+  <i class="fas fa-truck-loading"></i>
+  <div class="card-info">
+    <h3>International Transport</h3>
+    <p>Our company provides integrated international transportation services for goods and petroleum products at the highest levels of efficiency and professionalism. We operate a modern fleet fully equipped for transportation between Gulf countries, while fully adhering to local and international safety and transportation standards. We are committed to transporting our clients' shipments—whether commercial, industrial, or petroleum—safely and reliably .</p>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+    <!-- Clients Section -->
+    <section class="clients-section" id="Clients">
+        <div class="clients-container">
+            <h2>Our Clients</h2>
+            <p>We are proud to have the trust of the most prominent companies we work with</p>
+            <div class="clients-logos">
+                <img src="بتروجين.jpeg" alt="Client 1" />
+                <img src="ريفيفيا.jpeg" alt="Client 2" />
+                <img src="أورانج.jpg" alt="Client 3" />
+                <img src="الاتفاق.jpeg" alt="Client 4" />
+                <img src="النفط الصافي.jpg" alt="Client 5" />
+            </div>
+        </div>
+    </section>
+
+<!-- Team section -->
+<section class="team-section" id="Team">
+  <div class="team-container">
+    <h2 class="section-title">Our Team</h2>
+    <p>Our team is the true driving force behind every successful journey</p>
+
+    <div class="team-grid">
+
+
+            <!-- العضو 1 -->
+      <div class="team-member">
+        <div class="member-card">
+          <div class="front">
+            <img src="Team-pfp.jpeg" alt="إبراهيم علي">
+            <h3>Hani Abu Kharoub</h3>
+            <p>CEO</p>
+          </div>
+          <div class="back">
+            <div class="contact-info">
+              <p class="info"><i class="fas fa-phone"></i> +966 56 141 5060</p>
+              <p class="info"><i class="fas fa-envelope"></i> Hani@Alsaadsa.com</p>
+              <p class="info"><i class="fas fa-envelope"></i> Hani@Ettihadsa.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- العضو 2 -->
+      <div class="team-member">
+        <div class="member-card">
+          <div class="front">
+            <img src="Team-pfp.jpeg" alt="إبراهيم علي">
+            <h3>Mohammad Khair Al-Hasan</h3>
+            <p>Financial Manager</p>
+          </div>
+          <div class="back">
+            <div class="contact-info">
+              <p class="info"><i class="fas fa-phone"></i> +966 59 422 4299</p>
+              <p class="info"><i class="fas fa-envelope"></i> M.Alhasan@Alsaadsa.com</p>
+              <p class="info"><i class="fas fa-envelope"></i> M.Alhasan1@Ettihadsa.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- العضو 3 -->
+      <div class="team-member">
+        <div class="member-card">
+          <div class="front">
+            <img src="Team-pfp.jpeg" alt="إبراهيم علي">
+            <h3>Ibrahim Ali</h3>
+            <p>Sales Manager</p>
+          </div>
+          <div class="back">
+            <div class="contact-info">
+              <p class="info"><i class="fas fa-phone"></i> +966 55 089 2608</p>
+              <p class="info"><i class="fas fa-envelope"></i> Ibrahim@Alsaadsa.com</p>
+              <p class="info"><i class="fas fa-envelope"></i> Ibrahim@Ettihadsa.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="contact-info-section" id="Contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">We are happy to receive your inquiries via the following methods</p>
+
+            <div class="contact-boxes">
+                <div class="contact-box">
+                    <i class="fas fa-phone"></i>
+                    <h3>Landline</h3>
+                    <p>013 8300968</p>
+                </div>
+                <div class="contact-box">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>0550 892 608</p>
+                </div>
+                <div class="contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@alsaadsa.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h2>Saud Saad Alharbi Transport Company</h2>
+                <p>Email : info@alsaadsa.com</p>
+                <p>Contact Number : 013 8300968</p>
+                <p>WhatsApp Number : 0550 892 608</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About Us</a></li>
+                    <li><a href="#Services">Our Services</a></li>
+                    <li><a href="#Team">Our Team</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-map">
+                <h3>Our Location</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.671465341943!2d50.019087999999996!3d26.466317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49fe20209432c3%3A0xe3167737766bc353!2z2YXYsdmD2LIg2KfZhNiv2YfYp9mGINin2YTYqtis2KfYsdmK!5e0!3m2!1sar!2ssa!4v1750361441309!5m2!1sar!2ssa"
+                    width="100%"
+                    height="200"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 All Rights Reserved - Saud Saad Alharbi Transport Company</p>
+        </div>
+
+        <div class="footer-maker" style="text-align: center; padding: 20px; font-family: 'Amiri', serif; font-size: 16px; color: #777;">
+            Designed by:
+            <a href="mailto:tira.developer@gmail.com">Yamen Al-Hassan</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
